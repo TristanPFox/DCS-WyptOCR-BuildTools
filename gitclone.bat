@@ -4,5 +4,6 @@ ECHO =====================
 ECHO Finished Cloning files from Github!
 ECHO Starting install... Press any key to continue immedietly.
 TIMEOUT /t 20
-CMD /k "DCSWaypoint/setup.bat
+CD DCSWaypoint
+setup.bat
 PAUSE
